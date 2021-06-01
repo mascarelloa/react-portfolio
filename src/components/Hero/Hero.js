@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import heroimg from "../../hero1.jpg"
 
 export const HeroContainer = styled.div`
   background: #111111;
@@ -33,12 +34,12 @@ export const HeroBackground = styled.div`
 export const ImageBackground = styled.div`
   height: 100vh;
   overflow: hidden;
-  /* -o-object-fit: cover; */
+  -o-object-fit: cover;
   object-fit: cover;
   background: #222222;
   background-attachment:fixed;
   background-size:cover;
-  background-image: url("https://tinyurl.com/y4cy8sff");
+  background-image: url(${heroimg});
 `;
 
 export const HeroContent = styled.div`

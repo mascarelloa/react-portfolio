@@ -15,7 +15,7 @@ font-family:poppins;
 font-weight:600;
 font-size:14px;
 letter-spacing:1px;
-margin-top:50px;
+margin-top:30px;
 margin-bottom:50px;
 `
 

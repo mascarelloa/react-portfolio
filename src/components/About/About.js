@@ -4,10 +4,10 @@ export const AboutContainer = styled.div`
   background: #ffffff;
 `;
 export const AboutWrapper = styled.div`
-  margin-right: 8%;
-  margin-left: 8%;
+  margin-right: 15%;
+  margin-left: 15%;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
   /* padding: 0 50px; */
   width: auto;
   height: auto;
@@ -59,7 +59,7 @@ export const AboutH3 = styled.h3`
   color: #00a29b;
   font-family: poppins;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 1px;
   font-style: italic;
 `;
@@ -67,8 +67,8 @@ export const AboutH3 = styled.h3`
 export const AboutP = styled.p`
   color: #000000;
   font-family: roboto;
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: 300;
+  font-size: 1.2rem;
   line-height:2rem;
   letter-spacing: 1px;
   padding-top: 30px;

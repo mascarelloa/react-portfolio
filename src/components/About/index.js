@@ -1,6 +1,6 @@
 import React from 'react'
 import {AboutContainer, AboutWrapper, AboutH1, Bar, AboutH2, Self, AboutH3, AboutP} from "./About"
-
+import self from "../../self.jpg"
 
 const About = () => {
     return (
@@ -12,7 +12,7 @@ const About = () => {
                         <Bar />
                     </AboutH1>
                     <Self>
-                    <img src="https://tinyurl.com/7dwuph92"/>
+                    <img src={self}/>
                 </Self>
                     <AboutH3>
                         In west central Florida, born and raised,
@@ -35,4 +35,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;

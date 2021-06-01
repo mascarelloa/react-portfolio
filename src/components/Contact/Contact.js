@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import { Link as LinkRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
+import { ExternalLink } from 'react-external-link';
 
 export const ContactContainer = styled.div`
   background-color: #000000;
@@ -11,7 +12,7 @@ export const ContactContainer = styled.div`
   justify-content: center;
   align-items:center;
   padding-top: 50px;
-  padding-bottom: 50px;
+
 `;
 
 export const ContactIcons = styled.div`
@@ -22,7 +23,7 @@ export const ContactIcons = styled.div`
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    color: #ffffff;
+    color: #000000;
   }
 
   @media screen and (max-width: 675px) {
@@ -31,6 +32,17 @@ export const ContactIcons = styled.div`
   margin-right: 15px;
   }
 `;
+
+export const ContactLink = styled(Link)`
+  color: #00a29b;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    color: #000000;
+  }
+`
+
 
 export const ContactContent= styled.h1`
 display:flex;
@@ -46,7 +58,7 @@ justify-content:center;
 flex-direction:row;
 `
 
-export const Contact = styled.h1`
+export const ContactMethod = styled.h1`
 color: white;
 font-family:roboto;
 font-weight: 400;

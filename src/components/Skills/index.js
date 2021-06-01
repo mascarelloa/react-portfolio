@@ -13,7 +13,7 @@ const Skills = () => {
           <SkillsColumn1>
         <section class="skills">
           <div class="skill-item">
-            <p class="skill-title">HTML5 & CSS3</p>
+            <p class="skill-title">HTML & CSS</p>
             <div class="progress">
               <div class="progess-bar progess-html"></div>
             </div>

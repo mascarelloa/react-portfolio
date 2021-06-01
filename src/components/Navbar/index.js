@@ -9,6 +9,7 @@ import {
   NavLinks,
 } from "./Navbar";
 import { FaBars } from "react-icons/fa";
+import logo from "../../alogo.png"
 
 const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false)
@@ -29,22 +30,22 @@ const Navbar = ({toggle}) => {
     <>
       <Nav scrollNav={scrollNav}>
         <NavContainer>
-          <NavLogo to="/"> am.</NavLogo>
+          <NavLogo><img src={logo}/></NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About.</NavLinks>
+              <NavLinks to="about">About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="projects">Projects.</NavLinks>
+              <NavLinks to="projects">Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Contact.</NavLinks>
+              <NavLinks to="contact">Contact</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="#">Resume.</NavLinks>
+              <NavLinks to="#">Resume</NavLinks>
             </NavItem>
           </NavMenu>
 

@@ -12,6 +12,12 @@ import {
  
 } from "./Projects";
 import "../../App.css";
+import astroscope from "../../project1.png"
+import shelfi from "../../shelfi.png"
+import placeholder from "../../placeholder.png"
+import jsquiz from "../../jsquiz.png"
+import weatherdash from "../../visual1.png"
+import passwordgenerator from "../../project4.png"
 
 const Projects = () => {
   return (
@@ -25,7 +31,7 @@ const Projects = () => {
         <ProjectsWrapper>
         <ProjectsCard>
                     <ProjectsImg>
-                    <img src="https://tinyurl.com/4dxb4yjp"/></ProjectsImg>
+                    <img src={astroscope}/></ProjectsImg>
                     <ProjectsH2>
                         Astroscope
                     </ProjectsH2>
@@ -40,7 +46,7 @@ const Projects = () => {
                 </ProjectsCard>
 
                 <ProjectsCard>
-                    <img src="https://tinyurl.com/tsvvs4mw"/>
+                    <img src={shelfi}/>
                     <ProjectsH2>
                         Shelfi
                     </ProjectsH2>
@@ -54,7 +60,7 @@ const Projects = () => {
                 </ProjectsCard>
 
                 <ProjectsCard>
-                    <img src="https://tinyurl.com/6kyhxwcz"/>
+                    <img src={placeholder}/>
                     <ProjectsH2>
                         Knowsy
                     </ProjectsH2>
@@ -67,7 +73,7 @@ const Projects = () => {
                     </ButtonContainer>
                 </ProjectsCard>
                 <ProjectsCard>
-                    <img src="https://tinyurl.com/mv35xhf5"/>
+                    <img src={weatherdash}/>
                     <ProjectsH2>
                        Weather Dash
                     </ProjectsH2>
@@ -80,7 +86,7 @@ const Projects = () => {
                     </ButtonContainer>
                 </ProjectsCard>
                 <ProjectsCard>
-                    <img src="https://tinyurl.com/kcwanxzc"/>
+                    <img src={jsquiz}/>
                     <ProjectsH2>
                        JavaScript Quiz
                     </ProjectsH2>
@@ -94,7 +100,7 @@ const Projects = () => {
                 </ProjectsCard>
 
                 <ProjectsCard>
-                    <img src="https://tinyurl.com/ycafdxp6"/>
+                    <img src={passwordgenerator}/>
                     <ProjectsH2>
                        Password Generator
                     </ProjectsH2>

@@ -77,7 +77,7 @@ export const ProjectsH2 = styled.h2`
 export const ProjectsP = styled.p`
   color: #000000;
   font-family: roboto;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   letter-spacing: 1px;
   text-align: justify;

@@ -132,10 +132,15 @@
 }
 
 
-#contact a, a:active, a:visited {
- color: #00A29B
+a:link, a:active, a:visited {
+ color: #00A29B;
+ text-decoration: none;
+ transition: all 0.3s ease-in-out
 }
 
-#contact a:hover, a:active:hover, a:visited:hover {
+a:link:hover, a:active:hover, a:visited:hover {
   color: #ffffff;
+  text-decoration: none;
  }
+
+

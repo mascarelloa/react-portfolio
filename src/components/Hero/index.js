@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { HeroContainer, HeroBackground, ImageBackground, HeroContent, HeroH1, HeroP, HeroButtonWrapper } from './Hero'
 import { Button } from "../Button"
 import "../../App.css"
+import heroimg from "../../hero1.jpg"
 
 const Hero = () => {
 
@@ -11,7 +12,7 @@ const Hero = () => {
         <HeroContainer>
             <HeroBackground>
                 <ImageBackground>
-                    
+                    {/* <img src={heroimg}/> */}
                 </ImageBackground>
             </HeroBackground>
             <HeroContent>

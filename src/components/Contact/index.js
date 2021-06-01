@@ -4,8 +4,7 @@ import {
   ContactIcons,
   ContactContent,
   IconWrapper,
-  Email,
-  Phone,
+  ContactMethod,
   ContactMessage
 } from "./Contact";
 import {
@@ -17,6 +16,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { GrFacebookOption } from "react-icons/gr";
+import { SiMailDotRu } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -24,24 +24,9 @@ const Contact = () => {
       <ContactContainer>
         <IconWrapper>
           <ContactIcons>
-            <a
-              id="contact"
-              href="https://github.com/mascarelloa"
-              target="_blank"
-            >
-              <FaGithub />
-            </a>
-          </ContactIcons>
-          <ContactIcons>
-            <a
-              id="contact"
-              href="https://www.facebook.com/mascarelloa"
-              target="_blank"
-            >
-              <GrFacebookOption />
-            </a>
-          </ContactIcons>
-          <ContactIcons>
+            <a id="contact" href="" target="_blank"><SiMailDotRu /></a>
+            </ContactIcons>
+            <ContactIcons>
             <a
               id="contact"
               href="https://www.linkedin.com/in/antoinette-mascarello-15988b94/"
@@ -50,13 +35,23 @@ const Contact = () => {
               <FaLinkedinIn />
             </a>
           </ContactIcons>
+            <ContactIcons>
+            <a
+              id="contact"
+              href="https://github.com/mascarelloa"
+              target="_blank"
+            >
+              <FaGithub />
+            </a>
+          </ContactIcons>
+          
           <ContactIcons>
             <a
               id="contact"
-              href="https://www.pinterest.com/anniemascara/"
+              href="https://www.facebook.com/mascarelloa"
               target="_blank"
             >
-              <FaPinterestP />
+              <GrFacebookOption />
             </a>
           </ContactIcons>
           <ContactIcons>
@@ -71,6 +66,16 @@ const Contact = () => {
           <ContactIcons>
             <a
               id="contact"
+              href="https://www.pinterest.com/anniemascara/"
+              target="_blank"
+            >
+              <FaPinterestP />
+            </a>
+          </ContactIcons>
+        
+          <ContactIcons>
+            <a
+              id="contact"
               href="https://twitter.com/anniemascara"
               target="_blank"
             >
@@ -78,12 +83,7 @@ const Contact = () => {
             </a>
           </ContactIcons>
         </IconWrapper>
-        
-        <ContactContent><ContactMessage>Call me, beep me, if you want to reach me: </ContactMessage>
-          <Contact>amfm723@gmail.com</Contact>
-
-          <Contact>(407) - 962 - 6635</Contact>
-        </ContactContent>
+      
       </ContactContainer>
     </>
   );

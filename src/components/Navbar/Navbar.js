@@ -11,8 +11,8 @@ export const Nav = styled.nav`
   top: 0;
   margin-top: -91px;
   position: sticky;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
   z-index: 10;
   transition: 0.8s all ease;
 
@@ -29,7 +29,7 @@ export const NavContainer = styled.div`
   z-index: 1;
 `;
 
-export const NavLogo = styled(LinkRouter)`
+export const NavLogo = styled.div`
   color: #fff;
   font-family:poppins;
   font-weight:600;
@@ -38,6 +38,10 @@ export const NavLogo = styled(LinkRouter)`
   align-items: center;
   text-decoration: none;
   text-transform: uppercase;
+  height:50px;
+  width:50px;
+  top:10px;
+  margin-bottom:0;
 `;
 
 export const MobileIcon = styled.div`
