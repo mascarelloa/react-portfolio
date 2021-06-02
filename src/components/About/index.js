@@ -5,7 +5,7 @@ import self from "../../self.jpg"
 const About = () => {
     return (
         <>
-            <AboutContainer>
+            <AboutContainer id="about">
                 <AboutWrapper>
                     <AboutH1>
                         The Dev

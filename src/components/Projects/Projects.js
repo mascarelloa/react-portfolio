@@ -78,7 +78,7 @@ export const ProjectsP = styled.p`
   color: #000000;
   font-family: roboto;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;
   text-align: justify;
   margin-bottom: 20px;

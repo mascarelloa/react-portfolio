@@ -10,12 +10,13 @@ import {
 } from "./Navbar";
 import { FaBars } from "react-icons/fa";
 import logo from "../../alogo.png"
+import {animateScroll as scroll} from "react-scroll"
 
 const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false)
 
   const changeNav = () => {
-    if(window.scrollY >= 80) {
+    if(window.scrollY >= 90) {
       setScrollNav(true)
     } else {
       setScrollNav(false)
@@ -24,25 +25,29 @@ const Navbar = ({toggle}) => {
 
   useEffect(() => {
     window.addEventListener('scroll', changeNav)
-  })
+  }, [])
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  }
 
   return (
     <>
       <Nav scrollNav={scrollNav}>
         <NavContainer>
-          <NavLogo><img src={logo}/></NavLogo>
+          <NavLogo to="/" onClick={toggleHome}><img src={logo}/></NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks to="about" offset={-90}>About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="projects">Projects</NavLinks>
+              <NavLinks to="projects" offset={-90}>Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Contact</NavLinks>
+              <NavLinks to="contact" offset={-90}>Contact</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="#">Resume</NavLinks>

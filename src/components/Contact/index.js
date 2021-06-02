@@ -21,10 +21,10 @@ import { SiMailDotRu } from "react-icons/si";
 const Contact = () => {
   return (
     <>
-      <ContactContainer>
+      <ContactContainer id="contact">
         <IconWrapper>
           <ContactIcons>
-            <a id="contact" href="" target="_blank"><SiMailDotRu /></a>
+            <a id="contact" href="mailto:amfm0793@gmail.com" target="_blank"><SiMailDotRu /></a>
             </ContactIcons>
             <ContactIcons>
             <a

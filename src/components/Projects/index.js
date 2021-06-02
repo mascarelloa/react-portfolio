@@ -22,11 +22,11 @@ import passwordgenerator from "../../project4.png"
 const Projects = () => {
   return (
     <>
-      <ProjectsContainer>
+      <ProjectsContainer id="projects">
         <ProjectsH1>
           The Projects
           <Bar />
-        </ProjectsH1>
+        </ProjectsH1 >
 
         <ProjectsWrapper>
         <ProjectsCard>

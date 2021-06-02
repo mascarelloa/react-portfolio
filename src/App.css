@@ -5,6 +5,10 @@
  
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 .skills {
     width: 100%;
 
@@ -28,7 +32,7 @@
     width:100%;
   }
   .progess-bar {
-    background-color:#000000;
+    background-color:#080808;
     border-radius: 10px;
     height: 20px;
     animation: loading 1s;
@@ -131,7 +135,6 @@
     }
 }
 
-
 a:link, a:active, a:visited {
  color: #00A29B;
  text-decoration: none;
@@ -141,6 +144,5 @@ a:link, a:active, a:visited {
 a:link:hover, a:active:hover, a:visited:hover {
   color: #ffffff;
   text-decoration: none;
- }
-
+ } 
 

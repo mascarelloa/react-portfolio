@@ -68,7 +68,7 @@ export const AboutP = styled.p`
   color: #000000;
   font-family: roboto;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height:2rem;
   letter-spacing: 1px;
   padding-top: 30px;

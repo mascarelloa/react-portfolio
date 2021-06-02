@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
-import { ExternalLink } from 'react-external-link';
 
 export const ContactContainer = styled.div`
-  background-color: #000000;
+  background-color: #090909;
   padding-left: 8%;
   padding-right: 8%;
   display: flex;
