@@ -34,7 +34,7 @@ const Projects = () => {
   <img src={astroscope} alt="Astroscope" />
   <div className="project-caption">
     <h2>Astroscope<span>HTML / CSS / JavaScript / Photoshop</span></h2>
-    <p>A web app that shows the user's daily horoscope along with NASA's astronomy photo of the day.</p><a href="#" class="project-button">Demo</a><a href="#" class="project-button">Repo</a>
+    <p>A web app that shows the user's daily horoscope along with NASA's astronomy photo of the day.</p><a href="https://mascarelloa.github.io/astroscope/" target="_blank" class="project-button">Demo</a><a href="https://github.com/mascarelloa/astroscope" target="_blank" class="project-button">Repo</a>
   </div>
 </div>
 
@@ -42,7 +42,7 @@ const Projects = () => {
   <img src={knowsy} alt="Knowsy" />
   <div className="project-caption">
     <h2>Knowsy<span>React / MongoDB / Node / Express</span></h2>
-    <p>A web app that lets users take,create, and share themed quizzes for any occasion.</p><a href="#" class="project-button">Demo</a><a href="#" class="project-button">Repo</a>
+    <p>A web app that lets users take,create, and share themed quizzes for any occasion.</p><a href="#" class="project-button">Demo</a><a href="https://github.com/mascarelloa/knowsy" target="_blank" class="project-button">Repo</a>
   </div>
 </div>
 
@@ -50,15 +50,15 @@ const Projects = () => {
   <img src={shelfi} alt="Shelfi" />
   <div className="project-caption">
     <h2>Shelfi<span>HTML / CSS / JavaScript / Node / MySQL</span></h2>
-    <p>A search engine app for book lovers to find their next good read and view book details.</p><a href="#" class="project-button">Demo</a><a href="#" class="project-button">Repo</a>
+    <p>A search engine app for book lovers to find their next good read and view book details.</p><a href="https://myshelfi.herokuapp.com/" target="_blank" class="project-button">Demo</a><a href="https://mascarelloa.github.io/shelfi/" target="_blank" class="project-button">Repo</a>
   </div>
 </div>
 
 <div class="project-card">
-  <img src={jsquiz} alt="Shelfi" />
+  <img src={jsquiz} alt="Js Quiz" />
   <div className="project-caption">
     <h2>JS Quiz<span>HTML / CSS / JavaScript</span></h2>
-    <p>A fun, timed quiz that tests beginner developers' knowledge on javascript concepts and records.</p><a href="#" class="project-button">Demo</a><a href="#" class="project-button">Repo</a>
+    <p>A fun, timed quiz that tests beginner developers' knowledge on javascript concepts and records.</p><a href="https://mascarelloa.github.io/code-quiz/" target="_blank" class="project-button">Demo</a><a href="https://github.com/mascarelloa/code-quiz" target="_blank" class="project-button">Repo</a>
   </div>
 </div>
 
