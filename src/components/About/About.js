@@ -67,7 +67,7 @@ export const AboutH3 = styled.h3`
 export const AboutP = styled.p`
   color: #000000;
   font-family: roboto;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.3rem;
   line-height:2rem;
   letter-spacing: 1px;

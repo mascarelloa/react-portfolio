@@ -28,14 +28,14 @@ html, body {
   .progress {
     background-color: #ffffff;
     border-radius: 10px;
-    height: 20px;
+    height: 15px;
     width:100%;
   }
   .progess-bar {
     background-color:#080808;
     border-radius: 10px;
-    height: 20px;
-    animation: loading 1s;
+    height: 15px;
+    animation: loading 2s;
   }
   .progess-html {
     width: 98%;
@@ -82,6 +82,7 @@ html, body {
   
   img {
     filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
   }
 
   img:hover{
@@ -123,4 +124,6 @@ a:link:hover, a:active:hover, a:visited:hover {
   color: #ffffff;
   text-decoration: none;
  } 
+
+
 

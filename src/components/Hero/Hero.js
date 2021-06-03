@@ -92,6 +92,7 @@ export const HeroP = styled.p`
 export const HeroButtonWrapper = styled.div`
   margin-top: 32px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+
 `;

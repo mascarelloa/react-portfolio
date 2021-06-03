@@ -11,6 +11,7 @@ import {
 import { FaBars } from "react-icons/fa";
 import logo from "../../alogo.png"
 import {animateScroll as scroll} from "react-scroll"
+import Pdf from "../../resume_may_2021.pdf"
 
 const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false)
@@ -29,6 +30,10 @@ const Navbar = ({toggle}) => {
 
   const toggleHome = () => {
     scroll.scrollToTop();
+  }
+
+  const onResumeClick = ()  => {
+    window.open(Pdf);
   }
 
   return (
@@ -50,7 +55,7 @@ const Navbar = ({toggle}) => {
               <NavLinks to="contact" offset={-90}>Contact</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="#">Resume</NavLinks>
+              <NavLinks onClick={onResumeClick}>Resume</NavLinks>
             </NavItem>
           </NavMenu>
 

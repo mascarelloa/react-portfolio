@@ -1,19 +1,19 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { HeroContainer, HeroBackground, ImageBackground, HeroContent, HeroH1, HeroP, HeroButtonWrapper } from './Hero'
 import { Button } from "../Button"
 import "../../App.css"
-import heroimg from "../../hero1.jpg"
+import Pdf from "../../resume_may_2021.pdf"
 
 const Hero = () => {
 
-
+    const onResumeClick = ()  => {
+        window.open(Pdf);
+      }
 
     return (
         <HeroContainer>
             <HeroBackground>
-                <ImageBackground>
-                    {/* <img src={heroimg}/> */}
-                </ImageBackground>
+                <ImageBackground/>
             </HeroBackground>
             <HeroContent>
                 <HeroH1>Antoinette Mascarello</HeroH1>
@@ -21,6 +21,10 @@ const Hero = () => {
                 <HeroButtonWrapper>
                     <Button to="projects">
                         Latest Work
+                    </Button>
+
+                    <Button onClick={onResumeClick}>
+                        View Resume
                     </Button>
                 </HeroButtonWrapper>
             </HeroContent>
