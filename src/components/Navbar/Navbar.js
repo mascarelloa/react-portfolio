@@ -85,8 +85,14 @@ export const NavLinks = styled(LinkScroll)`
   text-transform: uppercase;
   font-size: 1.1rem;
   font-family: poppins;
+  transition: all .3s ease-in-out;
 
   &.active {
     border-bottom: 3px solid #111111;
+  }
+
+
+  &:hover{
+    color:#75C9C0;
   }
 `;

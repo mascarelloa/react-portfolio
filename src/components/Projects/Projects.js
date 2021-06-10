@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const ProjectsContainer = styled.div`
   height: auto;
   display: flex;
@@ -18,7 +17,7 @@ export const ProjectsH1 = styled.h1`
   color: #000000;
   font-family: poppins;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 60px;
   letter-spacing: 1px;
   text-transform: uppercase;
 
@@ -35,8 +34,6 @@ export const Bar = styled.div`
   text-align: center;
   margin-top: 10px;
 `;
-
-
 
 // export const ProjectsContainer = styled.div`
 //   height: auto;
@@ -106,7 +103,7 @@ export const Bar = styled.div`
 
 // export const ProjectsH2 = styled.h2`
 //   font-family: poppins;
-//   color: #00a29b;
+//   color: #75c9c0;
 //   margin-bottom: 10px;
 //   margin-top: 10px;
 //   text-transform: uppercase;

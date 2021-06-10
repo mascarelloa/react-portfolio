@@ -17,6 +17,7 @@ import shelfi from "../../shelfi2.png"
 import placeholder from "../../placeholder.png"
 import jsquiz from "../../jsquiz.png"
 // import weatherdash from "../../weatherdash.png"
+import {BsBoxArrowUpRight} from "react-icons/bs"
 
 import "./Projects.css"
 
@@ -25,44 +26,65 @@ const Projects = () => {
     <>
       <ProjectsContainer id="projects">
         <ProjectsH1>
-          The Projects
+          Projects
           <Bar />
         </ProjectsH1 >
 
-<div className="projects">
-        <div class="project-card">
-  <img src={astroscope} alt="Astroscope" />
-  <div className="project-caption">
-    <h2>Astroscope<span>HTML / CSS / JavaScript / Photoshop</span></h2>
-    <p>A web app that shows the user's daily horoscope along with NASA's astronomy photo of the day.</p><a href="https://mascarelloa.github.io/astroscope/" target="_blank" class="project-button">Demo</a><a href="https://github.com/mascarelloa/astroscope" target="_blank" class="project-button">Repo</a>
+        <div className="project-row">
+  <div className="project-image">
+    <img src={knowsy}/>
+  </div>
+  <div className="project-details">
+    <h2>Knowsy</h2>
+    <h3>React, MongoDB, Express, Node, and CSS.</h3>
+    <p>A search engine app for book lovers to find their next good read and view book details.</p>
+    <div className="project-buttons">
+    <a href="https://github.com/mascarelloa/shelfi" target="_blank">View Repo <BsBoxArrowUpRight id="go-icon" /></a> 
+    <a href="https://myshelfi.herokuapp.com/" target="_blank">View Demo <BsBoxArrowUpRight id="go-icon"/></a></div>
   </div>
 </div>
 
-<div class="project-card">
-  <img src={knowsy} alt="Knowsy" />
-  <div className="project-caption">
-    <h2>Knowsy<span>React / MongoDB / Node / Express</span></h2>
-    <p>A web app that lets users take,create, and share themed quizzes for any occasion.</p><a href="#" class="project-button">Demo</a><a href="https://github.com/mascarelloa/knowsy" target="_blank" class="project-button">Repo</a>
+<div className="project-row">
+  <div className="project-image">
+    <img src={astroscope}/>
   </div>
-</div>
-
-<div class="project-card">
-  <img src={shelfi} alt="Shelfi" />
-  <div className="project-caption">
-    <h2>Shelfi<span>HTML / CSS / JavaScript / Node / MySQL</span></h2>
-    <p>A search engine app for book lovers to find their next good read and view book details.</p><a href="https://myshelfi.herokuapp.com/" target="_blank" class="project-button">Demo</a><a href="https://mascarelloa.github.io/shelfi/" target="_blank" class="project-button">Repo</a>
-  </div>
-</div>
-
-<div class="project-card">
-  <img src={jsquiz} alt="Js Quiz" />
-  <div className="project-caption">
-    <h2>JS Quiz<span>HTML / CSS / JavaScript</span></h2>
-    <p>A fun, timed quiz that tests beginner developers' knowledge on javascript concepts and records.</p><a href="https://mascarelloa.github.io/code-quiz/" target="_blank" class="project-button">Demo</a><a href="https://github.com/mascarelloa/code-quiz" target="_blank" class="project-button">Repo</a>
+  <div className="project-details">
+    <h2>Astroscope</h2>
+    <h3>HTML, CSS, JavaScript, Node, and MySQL.</h3>
+    <p>A search engine app for book lovers to find their next good read and view book details.</p>
+    <div className="project-buttons">
+    <a href="https://github.com/mascarelloa/shelfi" target="_blank">View Repo <BsBoxArrowUpRight id="go-icon" /></a> 
+    <a href="https://myshelfi.herokuapp.com/" target="_blank">View Demo <BsBoxArrowUpRight id="go-icon"/></a></div>
   </div>
 </div>
 
 
+<div className="project-row">
+  <div className="project-image">
+    <img src={shelfi}/>
+  </div>
+  <div className="project-details">
+    <h2>Shelfi</h2>
+    <h3>HTML, CSS, JavaScript, Node, and MySQL.</h3>
+    <p>A search engine app for book lovers to find their next good read and view book details.</p>
+    <div className="project-buttons">
+    <a href="https://github.com/mascarelloa/shelfi" target="_blank">View Repo <BsBoxArrowUpRight id="go-icon" /></a> 
+    <a href="https://myshelfi.herokuapp.com/" target="_blank">View Demo <BsBoxArrowUpRight id="go-icon"/></a></div>
+  </div>
+</div>
+
+<div className="project-row">
+  <div className="project-image">
+    <img src={jsquiz}/>
+  </div>
+  <div className="project-details">
+    <h2>JS Quiz</h2>
+    <h3>HTML, CSS, and JavaScript.</h3>
+    <p>A fun, timed quiz that tests beginner developers' knowledge on javascript concepts and records.</p>
+    <div className="project-buttons">
+    <a href="https://github.com/mascarelloa/code-quiz" target="_blank">View Repo <BsBoxArrowUpRight id="go-icon" /></a> 
+    <a href="https://mascarelloa.github.io/code-quiz/" target="_blank">View Demo <BsBoxArrowUpRight id="go-icon"/></a></div>
+  </div>
 </div>
         
       </ProjectsContainer>

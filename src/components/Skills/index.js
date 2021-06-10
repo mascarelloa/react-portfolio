@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
       <SkillsContainer>
-          <SkillsH1>The tools<Bar /></SkillsH1>
+          <SkillsH1>tools<Bar /></SkillsH1>
           
           <SkillsWrapper>
 
