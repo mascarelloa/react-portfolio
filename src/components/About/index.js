@@ -1,6 +1,6 @@
 import React from 'react'
 import {AboutContainer, AboutWrapper, AboutH1, Bar, AboutH2, AboutContent, AboutImage, AboutBio, Self, AboutH3, AboutP} from "./About"
-import self from "../../self.jpg"
+import self from "../../self.png"
 
 const About = () => {
     return (

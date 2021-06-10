@@ -61,6 +61,10 @@ export const AboutImage = styled.div`
   flex-direction: column;
   width:35%;
   min-width:400px;
+
+  @media screen and (max-width: 400px) {
+    min-width:300px;
+  }
 `
 
 export const AboutH1 = styled.h1`
@@ -90,6 +94,8 @@ export const Bar = styled.div`
 export const Self = styled.div`
   width: 100%;
   max-width:500px;
+
+ 
 `;
 
 export const AboutH2 = styled.h2`

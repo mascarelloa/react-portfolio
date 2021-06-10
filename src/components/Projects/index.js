@@ -16,7 +16,7 @@ import knowsy from "../../knowsy.png"
 import shelfi from "../../shelfi2.png"
 import placeholder from "../../placeholder.png"
 import jsquiz from "../../jsquiz.png"
-// import weatherdash from "../../weatherdash.png"
+import weatherdash from "../../weatherdash.png"
 import {BsBoxArrowUpRight} from "react-icons/bs"
 
 import "./Projects.css"
@@ -86,6 +86,22 @@ const Projects = () => {
     <a href="https://mascarelloa.github.io/code-quiz/" target="_blank">View Demo <BsBoxArrowUpRight id="go-icon"/></a></div>
   </div>
 </div>
+
+
+<div className="project-row">
+  <div className="project-image">
+    <img src={weatherdash}/>
+  </div>
+  <div className="project-details">
+    <h2>Weather Dash</h2>
+    <h3>HTML, CSS, and JavaScript.</h3>
+    <p>A fun, timed quiz that tests beginner developers' knowledge on javascript concepts and records.</p>
+    <div className="project-buttons">
+    <a href="https://github.com/mascarelloa/code-quiz" target="_blank">View Repo <BsBoxArrowUpRight id="go-icon" /></a> 
+    <a href="https://mascarelloa.github.io/code-quiz/" target="_blank">View Demo <BsBoxArrowUpRight id="go-icon"/></a></div>
+  </div>
+</div>
+
         
       </ProjectsContainer>
     </>
