@@ -10,8 +10,8 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterContent = styled.div`
-  font-family: poppins;
-  font-weight: 600;
+  font-family: roboto;
+  font-weight: 300;
   font-size: 14px;
   letter-spacing: 1px;
   margin-top: 30px;
@@ -21,8 +21,10 @@ export const FooterContent = styled.div`
 export const FooterH1 = styled.h1`
   color: #75c9c0;
   font-size: 14px;
+  font-weight: 300;
 `;
 
 export const FooterP = styled.p`
   color: #ffffff;
+  
 `;

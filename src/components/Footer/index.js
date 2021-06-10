@@ -7,10 +7,10 @@ const Footer = () => {
            <FooterContainer>
                <FooterContent>
                     <FooterH1>
-                    MADE WITH ♡ BY ANTOINETTE MASCARELLO.
+                    Made with ♡ by Antoinette Mascarello.
                     </FooterH1>
                     <FooterP>
-                    © 2021 ALL RIGHTS RESERVED.
+                    © 2021 All rights reserved.
                     </FooterP>
 
                </FooterContent>
