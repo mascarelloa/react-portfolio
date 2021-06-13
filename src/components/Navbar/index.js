@@ -11,7 +11,7 @@ import {
 import { FaBars } from "react-icons/fa";
 import logo from "../../alogo.png"
 import {animateScroll as scroll} from "react-scroll"
-import Pdf from "../../resume_may_2021.pdf"
+import Pdf from "../../Resume_06-2021.pdf"
 
 const Navbar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false)

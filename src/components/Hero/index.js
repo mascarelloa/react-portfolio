@@ -2,7 +2,7 @@ import React from 'react'
 import { HeroContainer, HeroBackground, ImageBackground, HeroContent, HeroH1, HeroP, HeroButtonWrapper } from './Hero'
 import { Button } from "../Button"
 import "../../App.css"
-import Pdf from "../../resume_may_2021.pdf"
+import Pdf from "../../Resume_06-2021.pdf"
 import { init } from "ityped"
 import {useEffect, useRef } from "react"
 
