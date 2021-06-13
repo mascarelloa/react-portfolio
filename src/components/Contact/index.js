@@ -21,6 +21,11 @@ import { SiMailDotRu } from "react-icons/si";
 const Contact = () => {
   return (
     <>
+    {/* <ContactFormContainer>
+      <ContactForm>
+
+      </ContactForm>
+    </ContactFormContainer> */}
       <ContactContainer id="contact">
         <IconWrapper>
           <ContactIcons>

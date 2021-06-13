@@ -3,8 +3,19 @@ import { HeroContainer, HeroBackground, ImageBackground, HeroContent, HeroH1, He
 import { Button } from "../Button"
 import "../../App.css"
 import Pdf from "../../resume_may_2021.pdf"
+import { init } from "ityped"
+import {useEffect, useRef } from "react"
 
 const Hero = () => {
+    
+    const textRef = useRef();
+
+    useEffect(()=> {
+        init(textRef.current, { 
+            showCursor: true, 
+            backDelay:1500,
+            strings: ['web developer. ', 'designer. ', 'content creator. ' ]})
+    }, [])
 
     const onResumeClick = ()  => {
         window.open(Pdf);
@@ -17,7 +28,7 @@ const Hero = () => {
             </HeroBackground>
             <HeroContent>
                 <HeroH1>Antoinette Mascarello</HeroH1>
-                <HeroP>  <h4>Fullstack Web Developer & Designer.</h4></HeroP>
+                <HeroP>  <h4>I am a <span ref={textRef}> </span></h4></HeroP>
                 <HeroButtonWrapper>
                     <Button to="projects">
                         Latest Work

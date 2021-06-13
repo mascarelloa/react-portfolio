@@ -84,28 +84,19 @@ img:hover {
   filter: none;
 }
 
-h4 {
-  font: 100% poppins;
-  color: white;
-  border-right: 0.1em solid;
-  /* width: 16.5em; */
-  width: 30ch;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 3s steps(30, end),
-    cursor-blink 0.3s step-end infinite alternate;
-  display: block;
+
+
+.ityped-cursor {
+  animation: blink 1s infinite;
+
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes cursor-blink {
+@keyframes blink {
   50% {
-    border-color: transparent;
+    opacity:1;
+  }
+  100% {
+    opacity:0;
   }
 }
 
@@ -122,19 +113,4 @@ a:active:hover,
 a:visited:hover {
   color: #ffffff;
   text-decoration: none;
-}
-
-.typing-text::after {
-  content: "|";
-  animation: blink ease 1s infinite;
-}
-
-@keyframes blink {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
 }
