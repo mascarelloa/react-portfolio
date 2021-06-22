@@ -10,7 +10,7 @@ const Footer = () => {
                     Made with ♡ by Antoinette Mascarello.
                     </FooterH1>
                     <FooterP>
-                    © 2021 All rights reserved.
+                    © 2021 All rights reserved. 
                     </FooterP>
 
                </FooterContent>
