@@ -21,7 +21,7 @@
     "styled-components": "^5.3.0",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://mascarelloa.com",
+  "homepage": "https://mascarelloa.github.io/react-portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
