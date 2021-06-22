@@ -28,6 +28,10 @@
   position: relative;
 }
 
+.project-image img:hover {
+cursor:pointer;
+}
+
 /* .project-image::after {
   content: "";
   display: block;

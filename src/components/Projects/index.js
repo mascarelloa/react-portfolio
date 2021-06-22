@@ -32,7 +32,7 @@ const Projects = () => {
 
         <div className="project-row">
   <div className="project-image">
-    <img src={knowsy}/>
+    <a href="https://agile-basin-43454.herokuapp.com/" target="_blank"><img src={knowsy}/></a>
   </div>
   <div className="project-details">
     <h2>Knowsy</h2>
@@ -46,7 +46,7 @@ const Projects = () => {
 
 <div className="project-row">
   <div className="project-image">
-    <img src={astroscope}/>
+    <a href="https://mascarelloa.github.io/astroscope/" target="_blank"><img src={astroscope}/></a>
   </div>
   <div className="project-details">
     <h2>Astroscope</h2>
@@ -61,7 +61,7 @@ const Projects = () => {
 
 <div className="project-row">
   <div className="project-image">
-    <img src={shelfi}/>
+  <a href="https://myshelfi.herokuapp.com/" target="_blank"><img src={shelfi}/></a>
   </div>
   <div className="project-details">
     <h2>Shelfi</h2>
@@ -75,7 +75,7 @@ const Projects = () => {
 
 <div className="project-row">
   <div className="project-image">
-    <img src={jsquiz}/>
+  <a href="https://mascarelloa.github.io/code-quiz/" target="_blank"><img src={jsquiz}/></a>
   </div>
   <div className="project-details">
     <h2>JS Quiz</h2>
@@ -90,7 +90,7 @@ const Projects = () => {
 
 <div className="project-row">
   <div className="project-image">
-    <img src={weatherdash}/>
+  <a href="https://mascarelloa.github.io/weather-dashboard/" target="_blank"><img src={weatherdash}/></a>
   </div>
   <div className="project-details">
     <h2>Weather Dash</h2>

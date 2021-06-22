@@ -52,7 +52,7 @@ body {
 }
 
 .progess-react {
-  width: 60%;
+  width: 75%;
 }
 .progess-bs {
   width: 90%;
@@ -61,7 +61,7 @@ body {
   width: 90%;
 }
 .progess-id {
-  width: 75%;
+  width: 80%;
 }
 
 @keyframes loading {
