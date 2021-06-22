@@ -32,7 +32,7 @@ const About = () => {
                         Coding on myspace outside of school...
                     </AboutH3>
                     <AboutP>
-                    My name is Antoinette, informally known as "Annie." I am a graduate from the University of Central Florida (Go Knights!) and <u>an aspiring web developer looking to take the tech world by storm</u>. As a proud product of the early 90s, the World Wide Web has always been a part of my life. I've witnessed it evolve from extraterrestrial-sounding dial up noises to lightning fast loads and I can't wait to see what the future holds. When I'm not coding, you can find me reading mystery novels, listening to vinyl records, rollerskating, and geeking out to anything Sci-Fi. 
+                    My name is Antoinette, informally known as "Annie." I am a graduate from the University of Central Florida (Go Knights!) and <b>an aspiring web developer looking to take the tech world by storm</b>. As a proud product of the early 90s, the World Wide Web has always been a part of my life. I've witnessed it evolve from extraterrestrial-sounding dial up noises to lightning fast loads and I can't wait to see what the future holds. When I'm not coding, you can find me reading mystery novels, listening to vinyl records, rollerskating, and geeking out to anything Sci-Fi. 
                     </AboutP>
                     </AboutBio>
                     </AboutContent>
