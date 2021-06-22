@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.1f3819e2.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.26676a39.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.26676a39.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.fed61080.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fed61080.js.map",
+    "static/js/2.7467af50.chunk.js": "/react-portfolio/static/js/2.7467af50.chunk.js",
+    "static/js/2.7467af50.chunk.js.map": "/react-portfolio/static/js/2.7467af50.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.1f3819e2.chunk.css.map": "/react-portfolio/static/css/main.1f3819e2.chunk.css.map",
+    "static/js/2.7467af50.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7467af50.chunk.js.LICENSE.txt",
+    "static/media/Resume_06-2021.c26cc174.pdf": "/react-portfolio/static/media/Resume_06-2021.c26cc174.pdf",
+    "static/media/alogo.ca71f667.png": "/react-portfolio/static/media/alogo.ca71f667.png",
+    "static/media/astroscope.7390856d.png": "/react-portfolio/static/media/astroscope.7390856d.png",
+    "static/media/hero1.144e18db.jpg": "/react-portfolio/static/media/hero1.144e18db.jpg",
+    "static/media/jsquiz.611b157c.png": "/react-portfolio/static/media/jsquiz.611b157c.png",
+    "static/media/knowsy.a4b409ba.png": "/react-portfolio/static/media/knowsy.a4b409ba.png",
+    "static/media/placeholder.d13fee75.png": "/react-portfolio/static/media/placeholder.d13fee75.png",
+    "static/media/self.aca1caf7.png": "/react-portfolio/static/media/self.aca1caf7.png",
+    "static/media/shelfi2.6beafe35.png": "/react-portfolio/static/media/shelfi2.6beafe35.png",
+    "static/media/weatherdash.a16627d4.png": "/react-portfolio/static/media/weatherdash.a16627d4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fed61080.js",
+    "static/js/2.7467af50.chunk.js",
+    "static/css/main.1f3819e2.chunk.css",
+    "static/js/main.26676a39.chunk.js"
+  ]
+}
